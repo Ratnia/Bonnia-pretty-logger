@@ -27,6 +27,18 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@ratnia/pretty-logger@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@ratnia/pretty-logger/-/pretty-logger-1.0.0.tgz"
+  integrity sha512-WBJf6n2U3HE1B7n4UwBEJJcfCnlJAYGdqjuWW06VxQVyRtAq1+KvUPcNGVkdQMp5BMu8xoBrw2anPseymiI+Hg==
+  dependencies:
+    "@types/node" "^24.0.1"
+    chalk "^5.4.1"
+    colors "^1.4.0"
+    publish "^0.6.0"
+    ts-node "^10.9.2"
+    typescript "^5.8.3"
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.11"
   resolved "https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.11.tgz"

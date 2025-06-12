@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@ratnia/pretty-logger": "^1.0.0",
     "@types/node": "^24.0.1",
     "chalk": "^5.4.1",
     "colors": "^1.4.0",
@@ -11,7 +12,8 @@
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "start" : "ts-node src/tes.ts"
   },
   "keywords": [
     "logger",
