@@ -7,16 +7,23 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
-  "name": "@bonnia/pretty-logger",
-  "version": "1.0.0",
+  "name": "@ratnia/pretty-logger",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "logger",
+    "pretty",
+    "console",
+    "typescript",
+    "node"
+  ],
   "author": "bonnia, gutecjug@gmail.com",
   "license": "ISC",
   "description": "pretty logger for me as an bunny",
+  "homepage": "https://github.com/Ratnia/-bonnia-pretty-logger.git",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ratnia/-bonnia-pretty-logger.git"
