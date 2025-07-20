@@ -13,12 +13,11 @@
   "version": "1.51",
   "main": "index.js",
   "scripts": {
-    "build": "turbo run build",
+    "build:all": "turbo run build",
     "lint": "turbo run lint",
     "test": "turbo run test",
     "format": "prettier --write \"**/*.{js,ts,tsx}\""
   },
-
   "keywords": [
     "logger",
     "pretty",
@@ -41,5 +40,6 @@
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.6.2",
     "turbo": "^2.5.5"
-  }
+  },
+  "packageManager": "pnpm@8.15.4"
 }
