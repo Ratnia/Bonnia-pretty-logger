@@ -1,0 +1,10 @@
+# Treat TypeScript and JavaScript files as text
+*.ts text
+*.js text
+*.d.ts text
+
+# Ignore pnpm-lock.yaml in diffs to reduce noise
+pnpm-lock.yaml -diff
+
+# Ensure consistent line endings
+* text=auto
