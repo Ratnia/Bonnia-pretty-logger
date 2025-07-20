@@ -1,12 +1,18 @@
 {
-  "name": "@ratnialogger/ui",
+  "name": "@ratnialogger/types",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest",
     "lint": "eslint src"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@ratnia/pretty-logger": "^1.2.1"
